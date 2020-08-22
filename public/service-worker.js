@@ -11,13 +11,17 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("/workbox-v3.6.3/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "/workbox-v3.6.3"});
 
 importScripts(
-  "/precache-manifest.85ca05257fbc32e5200fc7b606a9af2e.js"
+  "/precache-manifest.e8d9312cfcca91dd039f8241370da621.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "pokaplayerfrontend"});
+
+workbox.skipWaiting();
+workbox.clientsClaim();
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
