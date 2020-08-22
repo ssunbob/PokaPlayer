@@ -23,7 +23,7 @@ try {
 } catch (e) {
     fs.writeFile(pin, "[]");
 }
-const defaultImage = config.isPremium ? "https://i.imgur.com/ZFaycMw.gif" : false;
+const defaultImage = config.isPremium ? "https://ftp.bmp.ovh/imgs/2020/08/a8ed7d3dbadf9f20.gif" : false;
 
 const {
     Resolver
@@ -325,7 +325,7 @@ async function parseSongs(songs, br = 999000) {
                 artistId: song.ar[0].id,
                 album: song.al.name || "",
                 albumId: song.al.id || null,
-                cover: song.al.picUrl ? imageUrl(song.al.picUrl) : 'https://i.imgur.com/qxy800z.png',
+                cover: song.al.picUrl ? imageUrl(song.al.picUrl) : 'https://ftp.bmp.ovh/imgs/2020/08/79be40c7ffb4b9af.png',
                 url: `/pokaapi/song/?moduleName=Netease2&songId=${song.id}`,
                 codec: "mp3",
                 // lrc: song.id,
@@ -810,16 +810,17 @@ async function getPlaylistSongs(id, br = 999000) {
 
 async function getLyric(id) {
     async function chsToCht(text, converter = "Taiwan") {
-        let result = await rp({
-            method: "POST",
-            uri: "https://api.zhconvert.org/convert",
-            body: {
-                converter,
-                text
-            },
-            json: true
-        });
-        return result.data.text;
+        // let result = await rp({
+        //     method: "POST",
+        //     uri: "https://api.zhconvert.org/convert",
+        //     body: {
+        //         converter,
+        //         text
+        //     },
+        //     json: true
+        // });
+        // return result.data.text;
+        return text;
     }
     let result = await rp(options(`${server}lyric?id=${id}`, {}, false, false));
     let lyric;
