@@ -7,10 +7,10 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/gnehs/PokaPlayer.svg?style=flat-square)](https://github.com/gnehs/PokaPlayer/archive/master.zip)
 [![Docker Build Status](https://img.shields.io/docker/build/gnehs/pokaplayer.svg?style=flat-square)](https://hub.docker.com/r/gnehs/pokaplayer/)
 
+This Branch contains some different feature compare with dev branch.
 
 ![](https://i.imgur.com/eOSlvuw.png)
 
-This Branch contains some different feature compare with dev branch.
 ## Feature
 * change imgur cdn to improve load speed.
 * temporary stop lyric translation.
