@@ -160,16 +160,17 @@ async function onLoaded() {
 
 async function getLyric(id) {
     async function chsToCht(text, converter = "Taiwan") {
-        let result = await rp({
-            method: "POST",
-            uri: "https://api.zhconvert.org/convert",
-            body: {
-                converter,
-                text
-            },
-            json: true
-        });
-        return result.data.text;
+        // let result = await rp({
+        //     method: "POST",
+        //     uri: "https://api.zhconvert.org/convert",
+        //     body: {
+        //         converter,
+        //         text
+        //     },
+        //     json: true
+        // });
+        //return result.data.text;
+        return text;
     }
     let result = await rp({
         uri: `https://api.imjad.cn/cloudmusic/?type=lyric&id=${id}`,
