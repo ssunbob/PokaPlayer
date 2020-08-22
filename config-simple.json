@@ -2,7 +2,7 @@
     "PokaPlayer": {
         "debug": false
     },
-    "mongodb": "mongodb://mongodb/poka",
+    "mongodb": "mongodb://host:port/poka",
     "DSM": {
         "enabled": true,
         "protocol": "https",
@@ -24,7 +24,7 @@
             "category": "ACG",
             "limit": 6,
             "order": "hot",
-            "image": "https://i.imgur.com/ZFaycMw.gif"
+            "image": "https://ftp.bmp.ovh/imgs/2020/08/a8ed7d3dbadf9f20.gif"
         },
         "login": {
             "//": "信箱或電話兩者選一",
@@ -34,18 +34,18 @@
         },
         "dailyRecommendSongs": {
             "enabled": true,
-            "image": "https://i.imgur.com/ZFaycMw.gif"
+            "image": "https://ftp.bmp.ovh/imgs/2020/08/a8ed7d3dbadf9f20.gif"
         },
         "dailyRecommendPlaylists": {
             "enabled": true,
             "limit": 6,
-            "image": "https://i.imgur.com/ZFaycMw.gif"
+            "image": "https://ftp.bmp.ovh/imgs/2020/08/a8ed7d3dbadf9f20.gif"
         },
         "hqPlaylist": {
             "enabled": true,
             "category": "ACG",
             "limit": 6,
-            "image": "https://i.imgur.com/ZFaycMw.gif"
+            "image": "https://ftp.bmp.ovh/imgs/2020/08/a8ed7d3dbadf9f20.gif"
         }
     }
 }
