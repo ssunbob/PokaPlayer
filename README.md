@@ -10,7 +10,11 @@
 
 ![](https://i.imgur.com/eOSlvuw.png)
 
-
+This Branch contains some different feature compare with dev branch.
+## Feature
+* change imgur cdn to improve load speed.
+* temporary stop lyric translation.
+* temporary stop branch change based on debug config.
 ## 開始使用
 
 -   使用 Docker 映像來部署 (https://hub.docker.com/r/gnehs/pokaplayer/)
@@ -26,6 +30,7 @@
 -   手機建議使用 Chrome
 -   Chrome 右上角 `...` 選「加到主畫面」可以有原生 APP 般的體驗
 -   **DSM 強烈建議開一個只能播音樂的帳號**
+-   该项目采用 mongoDB，在初始配置时格式为 "mongodb://host:port/poka"，若未启用 docker 进行调试，需手动创建 poka 数据库
 
 ## 支援的模組
 
