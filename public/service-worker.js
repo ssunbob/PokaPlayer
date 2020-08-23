@@ -15,7 +15,7 @@ importScripts("/workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/workbox-v3.6.3"});
 
 importScripts(
-  "/precache-manifest.ff693ed6ae5d827b97fae894da51c40e.js"
+  "/precache-manifest.5eda517378b9458403bc6f3b9fda0ae6.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "pokaplayerfrontend"});
