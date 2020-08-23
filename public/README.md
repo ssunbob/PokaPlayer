@@ -1,2 +1,3 @@
 # PokaPlayer Frontend
-https://github.com/gnehs/PokaPlayer-FrontEnd
+> This is a unofficial fork.
+https://github.com/ssunbob/PokaPlayer-FrontEnd

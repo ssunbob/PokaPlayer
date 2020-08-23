@@ -10,14 +10,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/gnehs/PokaPlayer.git"
+		"url": "git+https://github.com/ssunbob/PokaPlayer.git"
 	},
 	"author": "gnehs, rextw.com",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/gnehs/PokaPlayer/issues"
+		"url": "https://github.com/ssunbob/PokaPlayer/issues"
 	},
-	"homepage": "https://github.com/gnehs/PokaPlayer#readme",
+	"homepage": "https://github.com/ssunbob/PokaPlayer#readme",
 	"dependencies": {
 		"base-64": "*",
 		"bcryptjs": "*",

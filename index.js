@@ -177,7 +177,7 @@ io.on("connection", socket => {
             socket.emit("init");
             git.reset(["--hard", "HEAD"])
                 .then(() => socket.emit("git", "fetch"))
-                .then(() => git.remote(["set-url", "origin", "https://github.com/gnehs/PokaPlayer.git"]))
+                .then(() => git.remote(["set-url", "origin", "https://github.com/ssunbob/PokaPlayer.git"]))
                 .then(() => git.fetch())
                 .then(() => git.pull())
                 .then(() => socket.emit("git", "reset"))

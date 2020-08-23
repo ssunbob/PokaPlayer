@@ -6,7 +6,7 @@ RUN apk add --no-cache make gcc g++ python git openssh-client\
     && mkdir /root/.ssh/ \
     && ssh-keyscan github.com > ~/.ssh/known_hosts
 # 拉取程式碼
-RUN git clone https://github.com/gnehs/PokaPlayer.git
+RUN git clone https://github.com/ssunbob/PokaPlayer.git
 # 覆蓋拉取的程式碼避免干擾到 dev
 COPY . /app 
 # node modules
