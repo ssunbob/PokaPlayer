@@ -1,13 +1,6 @@
 [![works badge](https://cdn.rawgit.com/nikku/works-on-my-machine/v0.2.0/badge.svg?style=flat-square)](https://github.com/nikku/works-on-my-machine)
-[![GitHub issues](https://img.shields.io/github/issues/gnehs/PokaPlayer.svg?style=flat-square)](https://github.com/gnehs/PokaPlayer/issues)
-[![GitHub forks](https://img.shields.io/github/forks/gnehs/PokaPlayer.svg?style=flat-square)](https://github.com/gnehs/PokaPlayer/network)
-[![GitHub stars](https://img.shields.io/github/stars/gnehs/PokaPlayer.svg?style=flat-square)](https://github.com/gnehs/PokaPlayer/stargazers)
-[![GitHub license](https://img.shields.io/github/license/gnehs/PokaPlayer.svg?style=flat-square)](https://github.com/gnehs/PokaPlayer/blob/master/LICENSE)
-[![GitHub tag (latest Ver)](https://img.shields.io/github/package-json/v/gnehs/PokaPlayer.svg?style=flat-square)](https://github.com/gnehs/PokaPlayer/releases/latest)
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/gnehs/PokaPlayer.svg?style=flat-square)](https://github.com/gnehs/PokaPlayer/archive/master.zip)
-[![Docker Build Status](https://img.shields.io/docker/build/gnehs/pokaplayer.svg?style=flat-square)](https://hub.docker.com/r/gnehs/pokaplayer/)
 
-This Branch contains some different feature compare with official original dev branch.
+> This Branch contains some different feature compare with official original dev branch.
 
 ![](https://i.imgur.com/eOSlvuw.png)
 
@@ -34,7 +27,7 @@ This Branch contains some different feature compare with official original dev b
 
 ## 支援的模組
 
--   [DSM Audio Station](https://www.synology.com/zh-tw/dsm/feature/audio_station)
+-   [Audio Station via DSM](https://www.synology.com/zh-tw/dsm/feature/audio_station)
 -   [Netease Cloud Music](https://music.163.com/)
     -   該模組之歌詞轉換功能使用了 [繁化姬](https://zhconvert.org/) 的 API 服務
 
